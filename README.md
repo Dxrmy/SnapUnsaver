@@ -1,38 +1,30 @@
-# SnapUnsaver
+<div align="center">
+  <img src="icon.png" alt="SnapUnsaver Icon" width="128" />
+  <h1>SnapUnsaver</h1>
+  <p>
+    <strong>ADB-Accelerated Media Management & Automation Utility</strong>
+  </p>
+  
+  ![C#](https://img.shields.io/badge/C%23-12-239120?style=flat&logo=c-sharp&logoColor=white)
+  ![ADB](https://img.shields.io/badge/Android-ADB-3DDC84?style=flat&logo=android)
+  ![OpenCV](https://img.shields.io/badge/OpenCV-4-5C3EE8?style=flat&logo=opencv)
+  ![Status](https://img.shields.io/badge/Status-Active-success)
 
-Automated Snapchat message unsaving tool using Python, PyAutoGUI, and OpenCV.
+  <br />
+</div>
+
+**SnapUnsaver** is a specialized C# automation tool designed to streamline the management of mobile media via ADB. By leveraging computer vision and precise input simulation, it automates the tedious process of unsaving and archiving chat-based media.
 
 ## Features
-- **Auto-Scrcpy**: Automatically downloads and sets up `scrcpy`.
-- **Smart Targeting**: Asks you to focus the scrcpy window to lock onto it.
-- **Human-like Behavior**: Random delays, scroll overshooting, and safety waits.
-- **Fail Safe**: Press `Q` or slam mouse to corner to stop.
+- 👁️ **Computer Vision**: Uses OpenCV for real-time button detection and state verification.
+- ⚡ **Low-Latency Control**: Direct ADB integration for rapid command execution and screen capture.
+- 📺 **scrcpy Integration**: Real-time visual feedback and manual override capabilities.
+- 🤖 **State-Aware Logic**: Robust error handling that identifies and recovers from unusual app states.
 
-## Setup
+## Tech Stack
+- **Languages**: C# (WinForms/WPF), Python (Legacy Core)
+- **Vision**: OpenCvSharp4
+- **Drives**: ADB (Android Debug Bridge), scrcpy
 
-1.  **Install Python**: Ensure you have Python installed.
-2.  **Install Dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  **Enable USB Debugging** on your Android phone and connect it to your PC.
-
-## Reference Images
-
-Ensure `saved_message_indicator.png` and `unsave_button.png` are in this folder.
-
-## Usage
-
-1.  Run the script:
-    ```bash
-    python main.py
-    ```
-2.  If `scrcpy` is missing, it will download it.
-3.  The script will start `scrcpy`.
-4.  **Important**: The script will ask you to **CLICK** the scrcpy window to focus it, then press ENTER in the terminal. This ensures it finds the right window.
-5.  Automation starts.
-
-## Controls
-
-*   **Quit**: Press `Q`.
-*   **Fail Safe**: Slam mouse to top-left corner.
+## 📄 License
+All rights reserved. Dxrmy Ecosystem.
