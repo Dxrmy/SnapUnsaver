@@ -2,29 +2,25 @@
   <img src="icon.png" alt="SnapUnsaver Icon" width="128" />
   <h1>SnapUnsaver</h1>
   <p>
-    <strong>ADB-Accelerated Media Management & Automation Utility</strong>
+    <strong>Universal Personal Data Redaction & Automation</strong>
   </p>
   
   ![C#](https://img.shields.io/badge/C%23-12-239120?style=flat&logo=c-sharp&logoColor=white)
-  ![ADB](https://img.shields.io/badge/Android-ADB-3DDC84?style=flat&logo=android)
-  ![OpenCV](https://img.shields.io/badge/OpenCV-4-5C3EE8?style=flat&logo=opencv)
-  ![Status](https://img.shields.io/badge/Status-Active-success)
+  ![Privacy](https://img.shields.io/badge/Focus-Redaction-red)
 
   <br />
 </div>
 
-**SnapUnsaver** is a specialized C# automation tool designed to streamline the management of mobile media via ADB. By leveraging computer vision and precise input simulation, it automates the tedious process of unsaving and archiving chat-based media.
+**SnapUnsaver** is a high-speed automation utility designed for mass data management and personal privacy. While it currently specializes in unsaving Snapchat media via ADB, it is evolving into a universal redaction suite.
 
-## Features
-- 👁️ **Computer Vision**: Uses OpenCV for real-time button detection and state verification.
-- ⚡ **Low-Latency Control**: Direct ADB integration for rapid command execution and screen capture.
-- 📺 **scrcpy Integration**: Real-time visual feedback and manual override capabilities.
-- 🤖 **State-Aware Logic**: Robust error handling that identifies and recovers from unusual app states.
+## The Roadmap
+- 👻 **Snapchat Automation**: ADB-driven unsaving and media archiving.
+- 🤖 **Discord Cleanup**: (Planned) Mass deletion of private messages and channel history.
+- 🌐 **Reddit Deep-Purge**: (Planned) Universal redaction of posts and comments.
+- ⚡ **Cross-Platform Vision**: Uses OpenCV for unified UI detection across any app.
 
-## Tech Stack
-- **Languages**: C# (WinForms/WPF), Python (Legacy Core)
-- **Vision**: OpenCvSharp4
-- **Drives**: ADB (Android Debug Bridge), scrcpy
+## ⚠️ Disclaimer
+Automating interactions with third-party social platforms may violate their TOS. Use with caution. Not responsible for account restrictions.
 
 ## 📄 License
-All rights reserved. Dxrmy Ecosystem.
+MIT License
